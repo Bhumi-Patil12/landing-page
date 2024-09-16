@@ -1,0 +1,132 @@
+header{
+    padding:0px;
+    background-color:#eee;
+    top:0;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    width:100vw;
+    justify-content:space-around;
+    min-height:75px;
+  }
+  
+  nav{
+    font-weight:400;
+    display:block;
+    
+    
+  }
+  
+  *{
+    margin:0;
+    padding:0;
+    
+  }
+  
+  a{
+    margin-right:75px;
+    color:black;
+    text-decoration:none;
+    font-family:sans-serif;
+  
+  }
+  
+  #hero{
+      align-items:center;
+      justify-content:center;
+      margin-top:50px;
+      height:200px;
+      display:flex;
+      flex-direction:column;
+      font-family:sans-serif;
+  }
+  
+  
+  form{
+    max-width:100%;
+    margin:0 auto;
+    text-align:center;
+  
+  }
+  
+  input{
+    width:250px;
+    height:25px;
+  }
+  
+  #submit{
+    width:100px;
+    height:40px;
+    font-weight:bold;
+    background-color:rgb(254, 220, 30);
+    border:none;
+    
+  }
+  
+  #submit:hover{
+    background-color:orange;
+    
+  }
+  
+  #container{
+      padding:0 80px 40px;  
+      margin:40px;
+      font-family:sans-serif;
+      line-height:0.6cm;
+  }
+  
+  .icon{
+      color:orange;
+  }
+  
+  #how-it-works{
+    text-align:center;
+  
+  }
+  
+  
+  .product{
+      display:inline-block;
+      align-items:center;
+      margin:60px;
+      
+  }
+  
+  #Tenor{
+    font-family:sans-serif;
+    text-align:center;
+    line-height:0.8cm;
+  
+  }
+  
+  
+  
+  #Bass{
+     font-family:sans-serif;
+    text-align:center;
+    line-height:0.8cm;
+  }
+  
+  #Valve{
+     font-family:sans-serif;
+    text-align:center;
+    line-height:0.8cm;
+  }
+  
+  .product>h3{
+       background-color:#eee;
+       width:180px;
+       height:50px;
+  }
+  
+  .contact{
+    text-align:right;
+    background-color:#eee;
+    height:40px;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    #hero {
+      font-size: 1rem;
+    }
+  }
